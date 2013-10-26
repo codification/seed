@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Prototyping</title>
+
+        <script type="text/javascript">
+curl = {
+    baseUrl: 'js',
+    paths: {
+        'jquery': '../modules/jquery-1.10.2',
+        'lodash': '../modules/lodash',
+        'when': '../modules/when.js'
+    },
+    packages: {
+  	'foliage' : {
+            'location':'../modules/foliage',
+            'main':'foliage'
+        }
+    }
+};
+        </script>
+        <script src="modules/curl.js" type="text/javascript"></script>
+        <script type="text/javascript">
+            curl('start.js');
+        </script>
+    </head>
+
+    <body >
+
+    </body>
+</html>
